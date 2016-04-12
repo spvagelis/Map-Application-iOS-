@@ -13,6 +13,7 @@
 		B7D5E4991CBD5C76002289CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D5E4971CBD5C76002289CA /* Main.storyboard */; };
 		B7D5E49B1CBD5C76002289CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D5E49A1CBD5C76002289CA /* Assets.xcassets */; };
 		B7D5E49E1CBD5C76002289CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D5E49C1CBD5C76002289CA /* LaunchScreen.storyboard */; };
+		B7D5E4A61CBD5D74002289CA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7D5E4A51CBD5D74002289CA /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B7D5E49A1CBD5C76002289CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7D5E49D1CBD5C76002289CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7D5E49F1CBD5C76002289CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7D5E4A51CBD5D74002289CA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7D5E4A61CBD5D74002289CA /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 		B7D5E4821CBD5C73002289CA = {
 			isa = PBXGroup;
 			children = (
+				B7D5E4A51CBD5D74002289CA /* MapKit.framework */,
 				B7D5E48D1CBD5C75002289CA /* MapViews */,
 				B7D5E48C1CBD5C75002289CA /* Products */,
 			);
@@ -110,6 +114,11 @@
 				TargetAttributes = {
 					B7D5E48A1CBD5C74002289CA = {
 						CreatedOnToolsVersion = 7.3;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
