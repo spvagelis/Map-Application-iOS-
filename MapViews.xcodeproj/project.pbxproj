@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B79042901CBEA155004D31AC /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = B790428F1CBEA155004D31AC /* MapPin.m */; };
 		B7D5E4901CBD5C76002289CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D5E48F1CBD5C76002289CA /* main.m */; };
 		B7D5E4931CBD5C76002289CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D5E4921CBD5C76002289CA /* AppDelegate.m */; };
 		B7D5E4961CBD5C76002289CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D5E4951CBD5C76002289CA /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B790428E1CBEA155004D31AC /* MapPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
+		B790428F1CBEA155004D31AC /* MapPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
 		B7D5E48B1CBD5C75002289CA /* MapViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D5E48F1CBD5C76002289CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B7D5E4911CBD5C76002289CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,6 +69,8 @@
 				B7D5E4921CBD5C76002289CA /* AppDelegate.m */,
 				B7D5E4941CBD5C76002289CA /* ViewController.h */,
 				B7D5E4951CBD5C76002289CA /* ViewController.m */,
+				B790428E1CBEA155004D31AC /* MapPin.h */,
+				B790428F1CBEA155004D31AC /* MapPin.m */,
 				B7D5E4971CBD5C76002289CA /* Main.storyboard */,
 				B7D5E49A1CBD5C76002289CA /* Assets.xcassets */,
 				B7D5E49C1CBD5C76002289CA /* LaunchScreen.storyboard */,
@@ -158,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B79042901CBEA155004D31AC /* MapPin.m in Sources */,
 				B7D5E4961CBD5C76002289CA /* ViewController.m in Sources */,
 				B7D5E4931CBD5C76002289CA /* AppDelegate.m in Sources */,
 				B7D5E4901CBD5C76002289CA /* main.m in Sources */,
@@ -309,6 +315,7 @@
 				B7D5E4A41CBD5C76002289CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

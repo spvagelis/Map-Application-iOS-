@@ -19,7 +19,12 @@
 @property (strong, nonatomic) IBOutlet UISegmentedControl *segmentControl;
 
 - (IBAction)ChangeMap:(id)sender;
+
 - (IBAction)locateMe:(id)sender;
+
+- (IBAction)Route:(id)sender;
+
+
 
 @end
 
